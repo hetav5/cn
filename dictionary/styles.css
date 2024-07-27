@@ -80,6 +80,9 @@
   .search input:valid ~ span{
     display: block;
   }
+  .info-text span{
+    font-weight: 500;
+  }
   .wrapper .info-text{
     font-size: 13px;
     color: #9A9A9A;
