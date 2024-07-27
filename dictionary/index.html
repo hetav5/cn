@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Dictionary App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictionary</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
     <div class="wrapper">
-        <header>Dictionary
-            <div class="search">
-                <input type="text" placeholder="Your word">
-                <i class="fas fa-search"></i>
-                <span class="material-icons">close</span>
-              <div>
-                <ul>
-                    <li class="word">
-                        <div class="details">
-                            <p>happy</p>
-                            <span> adjective /'hapi/</span>
-                        </div>
-                        <i class="fas fa-volume-up"></i>
-                    </li>
-                    <div class="content">
-                        <li class="meaning">
-                            <div class="details">
-                                <p>Meaning</p>
-                                <span>feeling or showing pleasure of contentment</span>
-                            </div>
-                        </li>
-                        <li class="example">
-                            <div class="details">
-                                <p>Example</p>
-                                <span>Jack came looking happy and excited.</span>
-                            </div>
-                        </li>
-                        <li class="synonyms">
-                            <div class="details">
-                                <p>synonyms</p>
-                                <div class="list">
-                                    <span>glad,</span>
-                                    <span>contented,</span>
-                                    <span>delighted,</span>
-                                    <span>cheerful,</span>
-                                    <span>joyful</span>
-                                </div>
-                            </div>
-                        </li>
-                    </div>
-                </ul>
-              </div>  
+      <header>English Dictionary</header>
+      <div class="search">
+        <input type="text" placeholder="Search a word" required spellcheck="false">
+        <i class="fas fa-search"></i>
+        <span class="material-icons">close</span>
+      </div>
+      <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p>__</p>
+            <span>_ _</span>
+          </div>
+          <i class="fas fa-volume-up"></i>
+        </li>
+        <div class="content">
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span>___</span>
             </div>
-        </header>
+          </li>
+          <li class="example">
+            <div class="details">
+              <p>Example</p>
+              <span>___</span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="details">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
     </div>
-   <script src="dic.js"></script> 
-</body>
+
+    <script src="script.js"></script>
+
+  </body>
 </html>
