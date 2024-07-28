@@ -10,7 +10,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4D59FB;
+  background: url(dictionary-page_ELRF6CYOHI.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 ::selection{
   color: #fff;
@@ -43,7 +46,7 @@ body{
 }
 .search input:focus{
   padding: 0 41px;
-  border: 2px solid #4D59FB;
+  border: 2px solid #cd5c5c;
 }
 .search input::placeholder{
   color: #B8B8B8;
@@ -60,7 +63,7 @@ body{
   font-size: 16px;
 }
 .search input:focus ~ i{
-  color: #4D59FB;
+  color: #cd5c5c;
 }
 .search span{
   right: 15px;
@@ -130,7 +133,7 @@ ul .content::-webkit-scrollbar{
 .content li .details{
   padding-left: 10px;
   border-radius: 4px 0 0 4px;
-  border-left: 3px solid #4D59FB;
+  border-left: 3px solid #cd5c5c;
 }
 .content li p{
   font-size: 17px;
