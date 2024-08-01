@@ -1,7 +1,7 @@
 CN
 
 The link to my dictionary app
-https://hetav5.github.io/cn/dictionary/.md
+https://hetav5.github.io/cn/dictionary/
 
 
 The link to my github app
