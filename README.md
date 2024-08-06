@@ -1,8 +1,5 @@
-CN
-
-The link to my dictionary app
-https://hetav5.github.io/cn/dictionary/
-
-
-The link to my github app
-https://hetav5.github.io/cn/github/
+<h1 id="cn">CN</h1>
+<p>The link to my dictionary app
+<a href="https://hetav5.github.io/cn/dictionary/">https://hetav5.github.io/cn/dictionary/</a></p>
+<p>The link to my github app
+<a href="https://hetav5.github.io/cn/github/">https://hetav5.github.io/cn/github/</a></p>
