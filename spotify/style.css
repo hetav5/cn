@@ -11,7 +11,10 @@
 
 }
 body{
-    background: #000;
+    background: #000000;
+}
+.color{
+    background-color: #000;
 }
 .sidebar{
   
@@ -213,6 +216,7 @@ body{
 }
 .spotify-playlist{
     padding: 20px 40px;
+    background-color: #000;
 
 }
 .spotify-playlist h2{
@@ -238,8 +242,9 @@ body{
     margin-bottom: 10px;
 
 }
-
-
+.spotify-playlist .card .item:hover{
+    background-color: #6c6a6a;
+}
 
 .spotify-playlist .item h4{
     color: white;
@@ -253,17 +258,26 @@ body{
 .spotify-playlist .item p:hover{
     text-decoration: underline;
 }
-.spotify-playlist .play-btn{
-    position: flex;
-    background:#1db954;
-    border-radius: 100%;
-    padding: 12px;
-    right: 10px;
-    top: -60px;
 
+/*.spotify-playlist .play-btn{
+    position: absolute;
+    background: #1db954;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 140px;
+    transform: 0.3s ease all    ;
+    opacity: 1;
 }
+.spotify-playlist2 .card .item:hover .play-btn i{
+    transform:translateY(-20px);
+    opacity: 1;
+    
+}*/
+
+
 .spotify-playlist2{
     padding: 20px 40px;
+    background-color: #000;
 
 }
 .spotify-playlist2 h2{
@@ -307,7 +321,7 @@ body{
     text-decoration: underline;
 }
 
-.spotify-playlist2 .play-btn{
+/*.spotify-playlist2 .play-btn{
     position: absolute;
     background: #1db954;
     border-radius: 50%;
@@ -320,9 +334,10 @@ body{
     transform:translateY(-20px);
     opacity: 1;
     
-}
+}*/
 .spotify-playlist3{
     padding: 20px 40px;
+    background-color: #000;
 
 }
 .spotify-playlist3 h2{
@@ -380,6 +395,110 @@ body{
     opacity: 1;
     
 }
+
+.spotify-playlist4{
+    padding: 20px 40px;
+
+}
+.spotify-playlist4 h2{
+    color: white;
+    font-weight: 800;
+    font-size:22px;
+    margin-bottom: 20px;
+}
+.spotify-playlist4 .card{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.spotify-playlist4 .card .item{
+    width: 200px;
+    background-color :#000;
+    cursor: pointer;
+    gap: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.spotify-playlist4 .card .item:hover{
+    background-color: #6c6a6a;
+}
+.spotify-playlist4 .card .item img{
+    background-color: #181818;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.spotify-playlist4 .item h4{
+    color: white;
+    font-size: 20px;
+}
+.spotify-playlist4 .item p{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.spotify-playlist4 .item p:hover{
+    text-decoration: underline;
+}
+
+/*.spotify-playlist4 .play-btn{
+    position: absolute;
+    background: #1db954;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 140px;
+    transform: 0.3s ease all    ;
+    opacity: 1;
+   }
+   .spotify-playlist4 .card .item:hover .play-btn i{
+    transform:translateY(-20px);
+    opacity: 1;
+    
+}*/
+
+.footer-section{
+    padding:20px 40px ;
+}
+.footer-section .footer{
+    display: absolute;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.footer-section .footer .footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-section .footer .footer-links .footer-columns{
+    margin: 0 12px;
+}
+.footer-section .footer .footer-links div{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1200px) {
     .sidebar {
