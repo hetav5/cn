@@ -458,7 +458,7 @@ body{
 
 .footer-section{
     padding:20px 40px ;
-    padding-right: 470px;
+    padding-right: 250px;
 
 }
 .footer-section .footer{
@@ -468,8 +468,10 @@ body{
 }
 .footer-section .footer .footer-links{
     display: flex;
+    float: left;
     justify-content: space-between;
     gap: 50px;
+    width:85%;
 }
 .footer-section .footer .footer-links .footer-columns{
     margin: 0px 24px 32px 0px;
@@ -496,28 +498,21 @@ body{
     color: white;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .social-links div {
+    
+    display: flex;
+    float: right;
+    margin-left: auto;
+   
+}
+.social-links div .fa-brands{
+    padding: 10px;
+    margin-inline-end: 10px;
+    color: white;
+    font-size: 25px;
+    background: #313131;
+    border-radius: 50px;
+}
 
 @media (max-width: 1200px) {
     .sidebar {
@@ -619,6 +614,40 @@ body{
     .top-nav .login-btn .signup,
     .top-nav .login-btn .login {
         font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-section {
+        padding: 20px 10px;
+        padding-right: 20px;
+    }
+
+    .footer-section .footer .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .footer-section .footer .footer-links .footer-columns {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .footer-section .footer .footer-links div {
+        font-size: 14px;
+    }
+
+    .footer-section .footer .footer-links ul a {
+        font-size: 10px;
+    }
+
+    .social-links div {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .social-links div .fa-brands {
+        font-size: 18px;
+        padding: 8px;
     }
 }
 
